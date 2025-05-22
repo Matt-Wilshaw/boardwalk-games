@@ -15,12 +15,6 @@
     /* light blue */
 }
 
-.nav-item {
-    color: blue;
-    text-decoration: underline;
-    
-
-}
 
 /* Global styles */
 
@@ -38,7 +32,15 @@ h3 {
 .sub-heading-color {
     color: var(--highlight-color);
 }
+/* Navbar */
+#navbar {
+    background-color: var(--primary-color);
+    
 
+}
+#navbar .logo {
+    width: 30px;
+}
 /* grid visualisation CSS for testing */
 
 /*.container,
