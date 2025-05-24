@@ -118,6 +118,9 @@ h2 {
 #fav-games .card {
     border: none;
 }
+.table.no-cellpadding td {
+  padding: 0;
+}
 
 /* Footer / contact */
 
@@ -154,6 +157,8 @@ h2 {
 #contact .table-dark * {
     background-color: transparent;
 }
+
+
 
 /* grid visualisation CSS for testing */
 
