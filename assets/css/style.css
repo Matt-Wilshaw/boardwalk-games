@@ -112,15 +112,14 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+
 /* Game library cards */
 
 #new-games .card,
 #fav-games .card {
     border: none;
 }
-.table.no-cellpadding td {
-  padding: 0;
-}
+
 
 /* Footer / contact */
 
