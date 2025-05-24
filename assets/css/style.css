@@ -36,6 +36,11 @@ h2 {
 h2 {
     margin-bottom: 2rem;
 }
+.custom-paragraph {
+
+    padding-left: 10%;
+}
+
 
 .sub-heading-color {
     color: var(--highlight-color);
@@ -45,6 +50,7 @@ h2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
 
 /* Buttons */
 
@@ -156,6 +162,24 @@ h2 {
 #contact .table-dark * {
     background-color: transparent;
 }
+/* Icon configuration in date box */
+ .input-icon-wrapper {
+    position: relative;
+  }
+/* Make space for icon */
+  .input-icon-wrapper .form-control {
+    padding-right: 2.5rem; 
+  }
+
+  .input-icon-wrapper i {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+   
+   
+  }
 
 
 

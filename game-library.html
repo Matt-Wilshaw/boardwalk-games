@@ -223,6 +223,82 @@
                 </div>
             </div>
         </section>
+        <!-- Reserve a game section -->
+        <section id="reserve-games" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-4 col-lg-10">
+                    <div class="text-center mb-4">
+                        <h2 class="display-6">Reserve a Game</h2>
+                    </div>
+
+                    <!-- Centered paragraph -->
+                    <div class="row custom-paragraph">
+                        <div class="col-12 col-lg-12 mx-auto">
+                            <p class="my-4 mx-auto text-start">
+                                Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and
+                                let the adventure begin!<br> Fill out your details and preferred game below, and we'll
+                                have
+                                it set aside for you when you arrive.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Form aligned with paragraph -->
+            <form action="success.html" method="GET">
+                <!-- Centering wrapper  for the form-->
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10 col-xl-8">
+                        <div class="row">
+                            <div class="col-12 col-md-3 col-lg-4 mb-3">
+                                <label for="name" class="form-label">Full name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-md-3 col-lg-4 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="tel" required>
+                            </div>
+                            <div class="col-12 col-md-3 col-lg-4 mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-lg-8 mb-3">
+                                <label for="event-type" class="form-label">Select game</label>
+                                <select id="event-type" class="form-select" name="event-type" required>
+                                    <option value="" selected>Select</option>
+                                    <option value="regular-play">Galaxy Pioneers</option>
+                                    <option value="dnd">Mystic Woods</option>
+                                    <option value="retro-night">Captain's Gambit</option>
+                                    <option value="tournament">Setters of Catan</option>
+                                    <option value="kids-party">Monopoly</option>
+                                    <option value="kids-party">Exploding Kittens</option>
+                                    <option value="kids-party">Cluedo</option>
+                                </select>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4 mb-3">
+                                <label for="requested-date" class="form-label">Requested date</label>
+                                <div class="input-icon-wrapper position-relative">
+                                    <input id="requested-date" type="text" class="form-control"
+                                        data-coreui-toggle="date-picker" data-coreui-locale="en-GB"
+                                        placeholder="dd/mm/yyyy" />
+                                    <i
+                                        class="fa-regular fa-calendar position-absolute top-50 end-0 translate-middle-y me-3"></i>
+                                </div>
+                            </div>
+
+                            <div class="col-12 text-end pt-3">
+                                <button type="submit" class="btn custom-button-outline">Submit</button>
+                            </div>
+                        </div>
+            </form>
+            </div>
+            </div>
+        </section>
+
+
+
     </main>
 
     <!-- footer / contact section -->
