@@ -240,8 +240,8 @@ h2 {
 
 /*   Table Responsiveness Overrides */
 
-table td,
-table th {
-  white-space: normal;
-  word-break: break-word;
+th,
+td
+ {
+  word-break: break-word; 
 }
