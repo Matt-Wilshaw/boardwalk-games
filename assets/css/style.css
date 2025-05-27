@@ -36,10 +36,13 @@ h2 {
 h2 {
     margin-bottom: 2rem;
 }
- /*.custom-paragraph { 
+ .custom-paragraph { 
 
     padding-left: 10%;
-} */
+} 
+.custom-text {
+    font-size: 0.6rem;
+  }
 
 
 .sub-heading-color {
@@ -212,6 +215,9 @@ h2 {
         color: rgb(255, 255, 255);
         width: 50%;
     }
+    .custom-text {
+    font-size: 1rem;
+  }
 }
 
 /* Large devices (small laptops, 992px and up) */
