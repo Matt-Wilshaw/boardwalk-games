@@ -218,6 +218,14 @@ h2 {
     .custom-text {
     font-size: 1rem;
   }
+  .text-wrapper {
+    max-width: 65%;   
+    margin: 0 auto;   
+  }
+  .form-wrapper {
+    max-width: 68%;   
+    margin: 0 auto;   
+  }
 }
 
 /* Large devices (small laptops, 992px and up) */
@@ -227,6 +235,14 @@ h2 {
     #services .card-body {
         min-height: auto;
     }
+    .text-wrapper {
+    max-width: 65%;   
+    margin: 0 auto;   
+  }
+  .form-wrapper {
+    max-width: 66%;  
+    margin: 0 auto;   
+  }
 }
 
 /* xl devices (large desktops, 1200px and up) */
@@ -247,6 +263,15 @@ h2 {
         width: 40%;
 
     }
+     .text-wrapper {
+    max-width: 66%;   
+    margin: 0 auto;   
+  }
+   .form-wrapper {
+    max-width: 67%;  
+    margin: 0 auto;   
+  }
+ 
 }
 
 /* xxl devices (larger desktops, 1400px and up) */
