@@ -36,13 +36,15 @@ h2 {
 h2 {
     margin-bottom: 2rem;
 }
- .custom-paragraph { 
+
+.custom-paragraph {
 
     padding-left: 10%;
-} 
+}
+
 .custom-text {
     font-size: 0.6rem;
-  }
+}
 
 
 .sub-heading-color {
@@ -165,24 +167,6 @@ h2 {
 #contact .table-dark * {
     background-color: transparent;
 }
-/* Icon configuration in date box */
- .input-icon-wrapper {
-    position: relative;
-  }
-/* Make space for icon */
-  .input-icon-wrapper .form-control {
-    padding-right: 2.5rem; 
-  }
-
-  .input-icon-wrapper i {
-    position: absolute;
-    right: 0.75rem;
-    top: 50%;
-    transform: translateY(-50%);
-    pointer-events: none;
-   
-   
-  }
 
 
 
@@ -215,17 +199,20 @@ h2 {
         color: rgb(255, 255, 255);
         width: 50%;
     }
+
     .custom-text {
-    font-size: 1rem;
-  }
-  .text-wrapper {
-    max-width: 65%;   
-    margin: 0 auto;   
-  }
-  .form-wrapper {
-    max-width: 68%;   
-    margin: 0 auto;   
-  }
+        font-size: 1rem;
+    }
+
+    .text-wrapper {
+        max-width: 65%;
+        margin: 0 auto;
+    }
+
+    .form-wrapper {
+        max-width: 68%;
+        margin: 0 auto;
+    }
 }
 
 /* Large devices (small laptops, 992px and up) */
@@ -235,14 +222,16 @@ h2 {
     #services .card-body {
         min-height: auto;
     }
+
     .text-wrapper {
-    max-width: 65%;   
-    margin: 0 auto;   
-  }
-  .form-wrapper {
-    max-width: 66%;  
-    margin: 0 auto;   
-  }
+        max-width: 65%;
+        margin: 0 auto;
+    }
+
+    .form-wrapper {
+        max-width: 66%;
+        margin: 0 auto;
+    }
 }
 
 /* xl devices (large desktops, 1200px and up) */
@@ -263,15 +252,17 @@ h2 {
         width: 40%;
 
     }
-     .text-wrapper {
-    max-width: 66%;   
-    margin: 0 auto;   
-  }
-   .form-wrapper {
-    max-width: 67%;  
-    margin: 0 auto;   
-  }
- 
+
+    .text-wrapper {
+        max-width: 66%;
+        margin: 0 auto;
+    }
+
+    .form-wrapper {
+        max-width: 67%;
+        margin: 0 auto;
+    }
+
 }
 
 /* xxl devices (larger desktops, 1400px and up) */
